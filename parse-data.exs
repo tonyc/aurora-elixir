@@ -18,8 +18,6 @@ defmodule DataParser do
     # 2014 11 24  2223   56985   80580    0    -4.5     2.4     1.6     5.3    17.1   151.4
     #{year, month, day, time, julian_day, day_seconds, s, bx, by, bz, bt, lat, lon} = String.split(line, ~r/\ +/)
     String.split(line, ~r/\ +/)
-
-
   end
 
 end
